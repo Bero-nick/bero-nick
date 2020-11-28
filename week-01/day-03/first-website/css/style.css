@@ -1,0 +1,27 @@
+body{
+    padding: 10%;
+    background-image: url(topography.png);
+}
+
+
+h1{ 
+    font-family: Font;
+}
+h2{
+    font-family: Font;
+}
+li{
+    
+    display: inline-block;
+    padding: 15px;
+
+}
+nav{
+    direction: rtl;
+    background-color: cadetblue;
+    
+}
+@font-face{
+    font-family: Font;
+    src: url('../font/YanoneKaffeesatz-VariableFont_wght.ttf')
+}
