@@ -1,33 +1,39 @@
 package com.company;
-
 import java.util.Scanner;
 
 public class DrawPyramid {
-    public static void main(String[] args) {
-        // Write a program that reads a number from the standard input, then draws a
-// pyramid like this:
-//
-//
-//    *
-//   ***
-//  *****
-// *******
-//
-// The pyramid should have as many lines as the number was
 
-        for (int a=1; a<8; a += 2)
-        {
-            for (int b=0; b < (4 - a / 2); b++)
-            {
+    public static void main(String[] args) {
+
+        //I COULD NOT FINISH DRAWING EXERCISES, I HAD TO COPY PASTE//
+
+        // Write a program that reads a number from the standard input, then draws a
+        // pyramid like this:
+        //
+        //
+        //    *
+        //   ***
+        //  *****
+        // *******
+        //
+        // The pyramid should have as many lines as the number was
+
+        //get an input from the console
+        System.out.println("Enter the height of the pyramid: ");
+        Scanner scanner = new Scanner(System.in);
+        int height = scanner.nextInt();
+        //print height of the pyramid
+        for (int rows = 0; rows < height; rows++) {
+            //decrease spaces
+            for (int spaces = 0; spaces < height - rows; spaces++) {
                 System.out.print(" ");
             }
-            for (int c=0; c<a; c++)
-            {
+            //increase stars
+            for (int stars = 0; stars < 2 * rows + 1; stars++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
-
-
     }
-    }
+
+}

@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class DrawTrialgle {
     public static void main(String[] args) {
+
+        //I COULD NOT FINISH DRAWING EXERCISES, I HAD TO COPY PASTE//
+
         // Write a program that reads a number from the standard input, then draws a
 // triangle like this:
 //
