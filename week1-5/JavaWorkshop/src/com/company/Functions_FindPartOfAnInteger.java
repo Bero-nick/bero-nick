@@ -1,7 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
-
+/*
 public class Functions_FindPartOfAnInteger {
     public static void main(String[] args) {
         //  Create a function that takes a number and an array of integers as parameters
@@ -32,3 +32,4 @@ public class Functions_FindPartOfAnInteger {
         }
     }
 }
+*/
